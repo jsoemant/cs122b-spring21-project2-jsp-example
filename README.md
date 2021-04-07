@@ -12,7 +12,7 @@ This example shows how JSP works independently.
 
  - create a test user and grant privileges:
     ```
-    mysql> CREATE USER 'mytestuser'@'localhost' IDENTIFIED BY 'mypassword';
+    mysql> CREATE USER 'mytestuser'@'localhost' IDENTIFIED BY 'My6$Password';
     mysql> GRANT ALL PRIVILEGES ON * . * TO 'mytestuser'@'localhost';
     mysql> quit;
     ```
